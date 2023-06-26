@@ -3,15 +3,17 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+                                        /* HEADER CONTENT*/
 title{
 font-family: Roboto;
 }
-.container {
+/* .container {
   min-height: 100vh;
   display: flex;
   flex-direction:column;
   background-color:#000;
-}
+  
+} */
 .header {
   width: 100%;
   min-height: 40px;
@@ -22,7 +24,8 @@ font-family: Roboto;
   flex-wrap: wrap; /* quando diminui ele quebra os elementos dando responsividade*/
   padding: 30px;
   gap: 8px 15px;
-  /* position: fixed;  */
+  position: fixed;
+  
 }
 .header-btn-group{
  display: flex;
@@ -42,6 +45,7 @@ transition:0.5;
 border-bottom:2px solid #000;
 }
 .logo-main{
+padding-top: 34px;
 font-size: 10px;
 }
 .span-logo1{
@@ -53,10 +57,130 @@ color: rgb(226, 17, 115);
 
 
 
-h1{
+
+/* #temp{
 color:#fff;
-padding-bottom: 50px;
+padding-bottom: 25px;
 display: flex;
 justify-content: center;
 align-items: center;
+} */
+
+                                                     /* main content*/
+
+main{
+ height: 100vh;
+ padding-top: 8rem;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ gap: 4rem;
+ scroll-margin-top: 20rem;
+ background-color: #191919;
+/* background: linear-gradient(to right,#0F2027, #203A43, #2C5364); */
 }
+
+.content-right {
+color:#fff;
+padding-left: 10rem;
+padding-bottom:10rem ;
+gap: 4rem;
+padding-top: 5rem;
+/* margin: 10px; */
+
+}
+
+h2{
+
+color: rgb(27, 125, 223);
+
+
+}
+
+p{
+padding-top: 2rem;
+font-family: Roboto;
+
+
+}
+
+.img-avatar{
+border-radius: 100%;
+background-size:absolute ;
+background-position: center;
+
+}
+
+.img-icone{
+padding-left: 3rem;
+margin:-9rem;
+}
+
+.main-content-title-h1{
+font-family: Roboto;
+color: rgb(211, 223, 235)
+ 
+
+}
+
+.project-title-h1{
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(211, 223, 235);
+padding-bottom: 1rem;
+width: 100%;
+background-color: #191919;
+font-family: Roboto;
+
+}
+
+.project-content{
+
+background-color: #191919;
+
+
+
+}
+
+
+.project-content{
+ display: grid;
+ grid-template-columns: 0.2fr 0.2fr 0.2fr;
+ grid-area: "item";
+ grid-gap: 20px;
+ padding: 20px;
+ flex: 1 0 auto;
+justify-content: center;
+
+
+}
+
+
+
+.item{
+ /* background-color: #203A43; */
+ background-color: #00000044;
+ color:#fff;
+ border: 1px solid #000;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap:10px;
+border-radius: 10px;
+
+
+}
+
+.project-content-img{
+
+width: 20rem;
+height: 18rem;;
+border-radius: 10px;
+
+
+}
+
+
+
