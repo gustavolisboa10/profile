@@ -190,6 +190,12 @@ justify-content: center;
 /* box-shadow: 0 0 20px #3d3d3d ; */
 }
 
+.anchor{
+text-decoration: none;
+color:#fff;
+
+}
+
 
                                     /*FOOTER RESPONSIVE AREA*/
 
