@@ -14,10 +14,14 @@
 li{
  display: inline-block;
  margin:0.5rem;
- color: rgb(211, 223, 235);
+ color: #fff;
  font-weight: bolder;
  font-size:15px ;
  cursor: pointer;
+transition: .5s;
+}
+li:hover{
+color:rgb(226, 17, 115);
 }
 .span-logo1{
 color: rgb(211, 223, 235);
@@ -193,10 +197,43 @@ justify-content: center;
 .anchor{
 text-decoration: none;
 color:#fff;
-
+transition: .5s;
+}
+.anchor:hover{
+color:rgb(226, 17, 115);
 }
 
 
                                     /*FOOTER RESPONSIVE AREA*/
 
+
+                                    /* teste modal */
+
+.navMenu,#btnComeceAqui{
+background-color: transparent;
+border: none;
+color: #fff;
+font-weight: bolder;
+cursor: pointer;
+transition: .4s;
+/* width: 15px; */
+font-family: 'Times New Roman', Times, serif;
+}
+#btnComeceAqui:hover{
+color: rgb(226, 17, 115);
+}
+
+dialog{
+position: absolute;
+top:50%;
+left:50%; 
+transform:translate(-50%,-200%);
+
+padding:1.5rem;
+background-color:#fff;
+border-radius: 10px;
+text-align: center;
+font-family: Roboto;
+
+}
 

@@ -19,20 +19,29 @@
  <div class="navMenu">
   <h1 class="logo-glx"><span class="span-logo1">GLx</span><span class="span-logo2">Technology{<>}</span></h1>
     <ul>
-     <li><a href=""></a>CURRICULO</li>
+     <button id="btnComeceAqui" class="anchor"  onclick="modal.show() ">COMECE AQUI</button>
+     <li><a href="./img/Gustavo.pdf" class="anchor" target="_blank">CURRICULO</a></li>
      <li><a href="#goToSobre" class="anchor">SOBRE</li></a>
      <li><a href="#goToProjetos"class="anchor">PROJETOS</li></a>
      <li><a href="#goToFooter" class="anchor"> CONTATO</li></a>
     </ul>
   </div>
 </nav>
+<dialog open id="modalContent" class="modal">
+    <div class="popUpContentInSide">
+        <h2>Portfólio em construção</h2><br>
+        <p>Muitas coisas legais estão por vir, qualquer duvida me chama em!!!</p><br>
+        <button class="btnClose" onclick="modal.close()">FECHAR</button>
+    </div>
 
-    <main>
+</dialog>
+<!-- onmouseover="modal.show()" -->
+    <main >
 <div class="resumeContent" id="goToSobre">
 <h1 class="resumeContentTitleH1">Olá, Eu sou o Gustavo!</h1>
 <h2 class="resumeContentTitleH2">Desenvolvedor FrontEnd</h2>
 <p class="resumeContentParagraph"> 
-    Sou um desenvolvedor front-end júnior apaixonado 
+    Sou um desenvolvedor front-end apaixonado 
    <br>por criar experiências digitais cativantes e funcionais. <br>
    <br> Com conhecimentos em HTML, CSS e JavaScript. 
    <br>Estou em busca de oportunidades para aplicar e <br> 
@@ -61,7 +70,11 @@
         </div>
         <div class="footer-content">
             <footer>
-                <div class="footer-content-title"><h1>Contact-me</h1></div>
+                <div class="footer-content-title"><a href="https://api.whatsapp.com/send?phone=5531993285861 " target="_blank" >
+                    
+                    <h1>Contact-me</h1>
+                    <!-- <img src="./img/whatsapp-icon.png" alt="" > -->
+                </a></div>
                 <div class="footer-content-img" id="goToFooter">
                 <a href="https://www.linkedin.com/public-profile/settings" target="_blank"><img  class="linkedin-logo" src="./img/LinkedIn-Logo.wine.svg" alt="linkedin-logo"></a>
                 <a href="https://github.com/gustavolisboa10" target="_blank"><img class="github-logo" src="./img/pngegg.png"  alt = "github-logo"></a>
