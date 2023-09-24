@@ -160,7 +160,7 @@ main{
 
 .footer-content{
  background-color: #191919;
-
+ margin-top: 0px;
 
 }
 
@@ -178,10 +178,17 @@ padding-top: 3rem;
 
 padding-top: 3rem;
 display: flex;
- align-items: center;
-justify-content: center;
+align-items: center;
+justify-content:space-evenly;
+background-color: #191919;
+margin: 10px;
  
 }
+#goToFooter{
+
+background-color: #191919;
+}
+
 .linkedin-logo, github-logo{
  width: 300px;
  filter: drop-shadow(0 0 5px #777373);
@@ -234,6 +241,28 @@ background-color:#fff;
 border-radius: 10px;
 text-align: center;
 font-family: Roboto;
+
+}
+
+
+
+
+/* teste icones */
+
+#i-whatsapp{
+ 
+  color: rgb(26, 239, 11);
+
+}
+
+#i-github{
+
+  color: black;
+
+}
+#i-linkedin{
+
+  color:cadetblue;
 
 }
 
